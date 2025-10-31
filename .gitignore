@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# Firebase - ignore local caches, logs and function builds
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+functions/node_modules/
+functions/.runtimeconfig.json
+firebase.json
+
+# Local generated files and editor/OS junk
+.vscode/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

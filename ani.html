@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ani.css">
+</head>
+<body>
+   <span class="oveja">🐑</span>
+<span class="oveja segunda">🐑</span>
+<span class="oveja tercera">🐑</span>
+<span class="oveja cuarta">🐑</span>
+
+<section id="inscripcion">
+  <div class="form-card">
+    <h2>Inscripción al Campamento</h2>
+    <p>Por favor, completa tus datos para formar parte de esta experiencia.</p>
+
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre completo</label>
+        <div class="input-btn">
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+          <button type="button" class="icon-btn">🖋️</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="edad">Edad</label>
+        <div class="input-btn">
+          <input type="number" id="edad" name="edad" placeholder="Tu edad" required>
+          <button type="button" class="icon-btn">📅</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="genero">Género</label>
+        <div class="input-btn">
+          <select id="genero" name="genero" required>
+            <option value="" disabled selected>Selecciona tu género</option>
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+          </select>
+          <button type="button" class="icon-btn">♀️♂️</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="iglesia">Iglesia</label>
+        <div class="input-btn">
+          <input type="text" id="iglesia" name="iglesia" placeholder="Nombre de tu iglesia" required>
+          <button type="button" class="icon-btn">⛪</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ciudad">Ciudad</label>
+        <div class="input-btn">
+          <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad donde vives" required>
+          <button type="button" class="icon-btn">📍</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Número de teléfono</label>
+        <div class="input-btn">
+          <input type="tel" id="telefono" name="telefono" placeholder="Ej: +1 809 000 0000" required>
+          <button type="button" class="icon-btn">📞</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comentarios">Comentario adicional</label>
+        <div class="input-btn">
+          <textarea id="comentarios" name="comentarios" rows="2" placeholder="Algo que quieras agregar..."></textarea>
+          <button type="button" class="icon-btn">💬</button>
+        </div>
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" id="acepto" required>
+        <label for="acepto">Acepto participar y cumplir con las normas del campamento.</label>
+      </div>
+
+      <button type="submit" class="submit-btn">Enviar inscripción</button>
+    </form>
+  </div>
+</section>
+
+
+
+    
+</body>
+</html>
