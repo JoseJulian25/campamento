@@ -27,7 +27,7 @@ npm install -g firebase-tools
 1. Clona o copia el repositorio a tu máquina y entra en la carpeta del proyecto:
 
 ```powershell
-cd "C:\Users\<tu-usuario>\Desktop\Programming\Campamento\Campamento"
+git clone https://github.com/JoseJulian25/campamento
 ```
 
 2. Instala las dependencias:
